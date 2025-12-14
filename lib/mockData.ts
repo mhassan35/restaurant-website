@@ -1,0 +1,82 @@
+import { MenuItem } from "./types"
+
+export const mockItems: MenuItem[] = [
+  {
+    id: "1",
+    name: "Spaghetti Carbonara",
+    description: "Creamy pasta with guanciale, egg, and pecorino cheese",
+    price: 16.99,
+    image: "/spaghetti-carbonara.png",
+    category: "pasta",
+    rating: 4.8,
+  },
+  {
+    id: "2",
+    name: "Risotto ai Funghi",
+    description: "Creamy risotto with mixed mushrooms and truffle oil",
+    price: 18.5,
+    image: "/mushroom-risotto.png",
+    category: "rice",
+    rating: 4.7,
+  },
+  {
+    id: "3",
+    name: "Branzino alla Griglia",
+    description: "Grilled Mediterranean sea bass with lemon and herbs",
+    price: 24.99,
+    image: "/grilled-branzino-fish.jpg",
+    category: "seafood",
+    rating: 4.9,
+  },
+  {
+    id: "4",
+    name: "Osso Buco",
+    description: "Braised veal shanks in white wine reduction",
+    price: 28.5,
+    image: "/osso-buco-veal-shanks.jpg",
+    category: "meat",
+    rating: 4.9,
+  },
+  {
+    id: "5",
+    name: "Caprese Salad",
+    description: "Fresh mozzarella, tomatoes, basil, and balsamic",
+    price: 12.99,
+    image: "/caprese-salad.jpg",
+    category: "appetizer",
+    rating: 4.6,
+  },
+  {
+    id: "6",
+    name: "Tiramisu",
+    description: "Classic Italian dessert with mascarpone and espresso",
+    price: 8.5,
+    image: "/classic-tiramisu.png",
+    category: "dessert",
+    rating: 4.8,
+  },
+  {
+    id: "7",
+    name: "Pappardelle al Ragù",
+    description: "Wide ribbons pasta with slow-cooked beef ragù",
+    price: 19.99,
+    image: "/pappardelle-ragu.jpg",
+    category: "pasta",
+    rating: 4.7,
+  },
+  {
+    id: "8",
+    name: "Panna Cotta",
+    description: "Silky vanilla panna cotta with berry coulis",
+    price: 7.99,
+    image: "/panna-cotta-berry.jpg",
+    category: "dessert",
+    rating: 4.8,
+  },
+]
+export const filters = [
+  { id: "rating", label: "Highest Rated" },
+  { id: "delivery", label: "Fast Delivery" },
+  { id: "fee", label: "Low Delivery Fee" },
+  { id: "popular", label: "Popular" }
+]
