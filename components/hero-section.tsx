@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://restaurant-website-backend-blond.vercel.app/static/images/hero-restaurant-dining.jpg"
+          src="https://restaurant-website-backend-blond.vercel.app/static/hero-restaurant-dining.jpg"
           alt="Fine dining restaurant"
           fill
           priority
